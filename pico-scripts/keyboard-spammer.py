@@ -30,7 +30,7 @@ while True:
             
         random_char = random.choice(letters)
         layout.write(random_char)
-        time.sleep(0.001)
+        time.sleep(0.0000001)
         
     if is_kill_switch_triggered():
         break
