@@ -1,4 +1,5 @@
 # Made for Raspberry Pi Pico 2 W using CircuitPython
+# code.py
 
 import time
 import usb_hid
