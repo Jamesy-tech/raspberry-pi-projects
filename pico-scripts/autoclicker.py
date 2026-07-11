@@ -1,0 +1,19 @@
+# Made for Raspberry Pi Pico 2 W using CircuitPython
+
+import time
+import usb_hid
+from adafruit_hid.mouse import Mouse
+
+time.sleep(1.5)
+
+mouse = Mouse(usb_hid.devices)
+
+LEFT_HANDED = False
+
+BUTTON = Mouse.RIGHT_BUTTON if LEFT_HANDED else Mouse.LEFT_BUTTON
+
+while True:
+    mouse.press(BUTTON)
+    time.sleep(0.02)
+    mouse.release(BUTTON)
+    time.sleep(0.1)
