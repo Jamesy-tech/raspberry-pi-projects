@@ -10,7 +10,7 @@ from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 keyboard = Keyboard(usb_hid.devices)
 layout = KeyboardLayoutUS(keyboard)
 
-time.sleep(5)
+time.sleep(0)
 
 CYCLE_DURATION = 10
 letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
