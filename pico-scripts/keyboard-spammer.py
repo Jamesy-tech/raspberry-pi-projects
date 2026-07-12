@@ -1,4 +1,4 @@
-# Made for Raspberry Pi Pico 2 W using CircutPython
+# Made for Raspberry Pi Pico 2 W using CircutPython [should work with most other models]
 # code.py
 
 import time
