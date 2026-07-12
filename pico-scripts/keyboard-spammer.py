@@ -1,4 +1,5 @@
 # Made for Raspberry Pi Pico 2 W using CircutPython [should work with most other models]
+# Spams random letters & numbers on the keyboard infinitely with 10 second cooldowns/cycles
 # code.py
 
 import time
