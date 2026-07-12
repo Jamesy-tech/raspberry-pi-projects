@@ -1,5 +1,6 @@
 # Made for Raspberry Pi Pico 2 W using CircutPython [should work with most other models]
-# Works on Chromebook, Windows
+# Opens a new tab, types the YouTube URL link for the official "Never Gonna Give You Up" music video and presses enter
+# Works on ChromeOS, Windows
 # code.py
 
 import time
