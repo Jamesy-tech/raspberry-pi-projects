@@ -1,4 +1,5 @@
 # Made for Raspberry Pi Pico 2 W using CircuitPython [should work with most other models]
+# Starts an infinite auto clicker that can be stopped by unplugging the Pi
 # code.py
 
 import time
@@ -9,7 +10,7 @@ time.sleep(1.5)
 
 mouse = Mouse(usb_hid.devices)
 
-LEFT_HANDED = False
+LEFT_HANDED = False # < Change if needed
 
 BUTTON = Mouse.RIGHT_BUTTON if LEFT_HANDED else Mouse.LEFT_BUTTON
 
