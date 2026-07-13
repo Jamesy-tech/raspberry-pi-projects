@@ -38,7 +38,7 @@ layout.write("https://www.youtube.com/channel/UCBeRITLbzQs2WLP1U7vJ3SQ?sub_confi
 keyboard.send(Keycode.ENTER)
 keyboard.release_all()
 
-time.sleep(4)
+time.sleep(6)
 
 keyboard.send(Keycode.TAB)
 keyboard.release_all()
