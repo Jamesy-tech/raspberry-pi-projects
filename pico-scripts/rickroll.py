@@ -34,7 +34,8 @@ keyboard.release_all()
 
 time.sleep(0.5)
 
-layout.write("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+#layout.write("https://www.youtube.com/watch?v=QDia3e12czc")
+layout.write("youtube.com/watch?v=QDia3e12czc")
 
 time.sleep(0.1)
 
