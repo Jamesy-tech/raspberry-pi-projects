@@ -4,7 +4,7 @@ cmd
 ENTER
 DELAY 1000
 F11
-STRING color 2
+STRING color a
 ENTER
 STRING dir/s
 ENTER
